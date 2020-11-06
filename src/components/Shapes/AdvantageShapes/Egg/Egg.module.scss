@@ -1,0 +1,9 @@
+@import "../../../../styles/variables.scss";
+
+.Egg {
+  display: block;
+  width: 130px;
+  height: 175px;
+  background-color: #32557f;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
