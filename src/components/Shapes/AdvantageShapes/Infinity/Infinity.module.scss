@@ -1,3 +1,5 @@
+@import "../../../../styles/variables.scss";
+
 .Infinity {
   position: relative;
   width: 106px;
@@ -13,7 +15,7 @@
     left: 0;
     width: 30px;
     height: 30px;
-    border: 10px solid #32557f;
+    border: 10px solid $primary-color;
     border-radius: 50px 50px 0 50px;
     transform: rotate(-45deg);
   }
