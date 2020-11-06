@@ -3,7 +3,7 @@ import classes from './Flag.module.scss';
 import Shape from '../../Shape';
 
 const Infinity = () => (
-    <Shape title='Infinity'>
+    <Shape title='Flag'>
         <div className={classes.Flag}>
         </div>
     </Shape>
