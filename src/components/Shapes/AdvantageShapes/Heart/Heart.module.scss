@@ -1,0 +1,25 @@
+.Heart {
+  position: relative;
+  width: 120px;
+  height: 100px;
+
+  &::before,
+  &:after {
+    position: absolute;
+    content: '';
+    left: 60px;
+    top: 0;
+    width: 60px;
+    height: 90px;
+    background: #32557f;
+    border-radius: 60px 60px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+
+  &::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+}
