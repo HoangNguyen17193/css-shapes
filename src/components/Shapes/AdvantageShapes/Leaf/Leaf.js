@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Leaf.module.scss';
 import Shape from '../../Shape';
 
-const Infinity = () => (
+const Leaf = () => (
     <Shape title="Leaf">
         <div className={classes.Leaf}>
         </div>
@@ -10,4 +10,4 @@ const Infinity = () => (
 
 );
 
-export default Infinity;
+export default Leaf;
