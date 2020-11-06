@@ -3,7 +3,7 @@ import classes from './Heart.module.scss';
 import Shape from '../../Shape';
 
 const Infinity = () => (
-    <Shape title="Leaf">
+    <Shape title="Heart">
         <div className={classes.Heart}>
         </div>
     </Shape>

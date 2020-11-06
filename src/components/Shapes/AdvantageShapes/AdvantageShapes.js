@@ -5,6 +5,7 @@ import PointerArrow from './PointerArrow/PointerArrow';
 import Infinity from './Infinity/Infinity';
 import Leaf from './Leaf/Leaf';
 import Flag from './Flag/Flag';
+import Heart from './Heart/Heart';
 import classes from './AdvantageShapes.module.scss';
 
 const AdvantageShapes = () => (
@@ -14,6 +15,7 @@ const AdvantageShapes = () => (
         <Col className={classes.Column} span={24} lg={{span: 8}}><Infinity/></Col>
         <Col className={classes.Column} span={24} lg={{span: 8}}><Leaf/></Col>
         <Col className={classes.Column} span={24} lg={{span: 8}}><Flag/></Col>
+        <Col className={classes.Column} span={24} lg={{span: 8}}><Heart/></Col>
     </Row>
 );
 
