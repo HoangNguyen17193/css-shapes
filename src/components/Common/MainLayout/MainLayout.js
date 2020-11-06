@@ -10,7 +10,7 @@ class MainLayout extends Component {
     render() {
         return (
             <Layout className={classes.MainLayout}>
-                <Header className={classes.Header}>Quick Todo</Header>
+                <Header className={classes.Header}>Shapes</Header>
                 <Content className={classes.ContentWrapper}>
                     <div className={classes.Content}>
                         {this.props.children}
