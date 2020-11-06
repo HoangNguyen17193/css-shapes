@@ -1,0 +1,41 @@
+{
+  "name": "css-shapes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.7.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start --no-cache",
+    "build": "react-scripts build",
+    "test": "react-scripts test --no-cache"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
