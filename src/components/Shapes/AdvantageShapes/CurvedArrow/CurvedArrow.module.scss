@@ -1,0 +1,30 @@
+.CurvedArrowWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.CurvedArrow {
+  margin-left: 30px;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 45px solid transparent;
+  border-right: 45px solid #32557f;
+  transform: rotate(10deg);
+
+  &:after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 15px solid #32557f;
+    border-radius: 100px 0 0 0;
+    top: -55px;
+    left: -40px;
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+  }
+}
