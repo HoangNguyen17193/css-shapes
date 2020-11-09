@@ -1,5 +1,7 @@
+@import '../../../styles/variables';
+
 .Header {
-  background-color: #002766;
+  background-color: $header-color;
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
@@ -7,6 +9,7 @@
 
 .MainLayout {
   height: 100vh;
+  background-color: $background-color;
 }
 
 .ContentWrapper {
@@ -27,6 +30,7 @@
 
 .Footer {
   text-align: center;
+  background-color: $background-color;
 }
 
 .HeartIcon {
