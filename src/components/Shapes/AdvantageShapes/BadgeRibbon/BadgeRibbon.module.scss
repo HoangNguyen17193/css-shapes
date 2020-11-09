@@ -6,7 +6,7 @@
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  &:before {
+  &:before, &:after {
     content: '';
     position: absolute;
     border-bottom: 70px solid $primary-color;
