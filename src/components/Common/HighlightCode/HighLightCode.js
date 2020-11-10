@@ -5,7 +5,7 @@ import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 const HighLightCode = (props) => {
     return (
         <SyntaxHighlighter language="scss" style={materialDark}>
-            {props.codeString}
+            {props.codeString || ''}
         </SyntaxHighlighter>
     )
 };
