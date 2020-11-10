@@ -45,6 +45,6 @@ const YinYang = () => {
             </div>
         </Shape>
     );
-}
+};
 
 export default YinYang;
