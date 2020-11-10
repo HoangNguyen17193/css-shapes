@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Cross.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const Cross = () => (
     <Shape title='Cross'>

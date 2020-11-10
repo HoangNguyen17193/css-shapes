@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Infinity.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const Infinity = () => (
     <Shape title='Infinity'>

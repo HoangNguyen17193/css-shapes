@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Moon.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const Moon = () => (
     <Shape title='Moon'>

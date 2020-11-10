@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Facebook.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const Facebook = () => (
     <Shape title='Facebook Icon'>

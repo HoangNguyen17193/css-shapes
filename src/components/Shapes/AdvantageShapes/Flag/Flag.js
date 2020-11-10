@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Flag.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const Flag = () => (
     <Shape title='Flag'>

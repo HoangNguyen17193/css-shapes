@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './YinYang.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const YinYang = () => (
     <Shape title='Yin Yang'>

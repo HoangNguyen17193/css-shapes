@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './PacMan.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const PacMan = () => (
     <Shape title="Pac Man">

@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './BadgeRibbon.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const BadgeRibbon = () => (
     <Shape title='Badge Ribbon'>

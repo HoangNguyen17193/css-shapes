@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './CurvedArrow.module.scss';
-import Shape from '../../Shape';
+import Shape from '../../Shape/Shape';
 
 const CurvedArrow = () => (
     <Shape title='Curved Arrow'>
