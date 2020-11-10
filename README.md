@@ -1,4 +1,4 @@
 # css-shapes
 
 ## License
-[MIT License](LICENSE)
+[Apache License](LICENSE)
