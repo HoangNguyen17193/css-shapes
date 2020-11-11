@@ -19,6 +19,9 @@ import TVScreen from '../../components/Shapes/AdvantageShapes/TVScreen/TVScreen'
 import Diamond from '../../components/Shapes/AdvantageShapes/Diamon/Diamond';
 import MagnifyingGlass from '../../components/Shapes/AdvantageShapes/MagnifyingGlass/MagnifyingGlass';
 import Base from '../../components/Shapes/AdvantageShapes/Base/Base';
+import Pentagon from '../../components/Shapes/AdvantageShapes/Pentagon/Pentagon';
+import Hexagon from '../../components/Shapes/AdvantageShapes/Hexagon/Hexagon';
+import Octagon from '../../components/Shapes/AdvantageShapes/Octagon/Octagon';
 
 import classes from './Shapes.module.scss';
 
@@ -46,6 +49,10 @@ const Shapes = () => {
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Diamond/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><MagnifyingGlass/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Base/></Col>
+
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Pentagon/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Hexagon/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Octagon/></Col>
 
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Facebook/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><StarFive/></Col>
