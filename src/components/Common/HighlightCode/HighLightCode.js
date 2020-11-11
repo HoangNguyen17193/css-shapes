@@ -7,7 +7,7 @@ import classes from './HighLightCode.module.scss';
 const HighLightCode = (props) => {
     return (
         <div className={classes.HighLightCode}>
-            <SyntaxHighlighter language="scss" style={materialDark}>
+            <SyntaxHighlighter language="scss" style={materialDark} showLineNumbers={true}>
                 {props.codeString || ''}
             </SyntaxHighlighter>
         </div>
