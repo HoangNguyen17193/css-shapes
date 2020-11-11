@@ -1,0 +1,9 @@
+@import "../../../../styles/variables";
+
+.Moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 $primary-color;
+  margin-right: 20px;
+}
