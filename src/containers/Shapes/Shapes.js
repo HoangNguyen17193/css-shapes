@@ -1,7 +1,6 @@
-import React, {Fragment, useState} from 'react';
+import React from 'react';
 import {Row, Col} from 'antd';
 
-import CodeModal from '../../components/Shapes/CodeModal/CodeModal';
 import CurvedArrow from '../../components/Shapes/AdvantageShapes/CurvedArrow/CurvedArrow';
 import PointerArrow from '../../components/Shapes/AdvantageShapes/PointerArrow/PointerArrow';
 import Infinity from '../../components/Shapes/AdvantageShapes/Infinity/Infinity';
@@ -17,13 +16,16 @@ import Moon from '../../components/Shapes/AdvantageShapes/Moon/Moon';
 import StarFive from '../../components/Shapes/AdvantageShapes/StarFive/StarFive';
 import BadgeRibbon from '../../components/Shapes/AdvantageShapes/BadgeRibbon/BadgeRibbon';
 import TVScreen from '../../components/Shapes/AdvantageShapes/TVScreen/TVScreen';
+import Diamond from '../../components/Shapes/AdvantageShapes/Diamon/Diamond';
+import MagnifyingGlass from '../../components/Shapes/AdvantageShapes/MagnifyingGlass/MagnifyingGlass';
+import Base from '../../components/Shapes/AdvantageShapes/Base/Base';
 
-import classes from './Shapes.scss';
+import classes from './Shapes.module.scss';
 
 const Shapes = () => {
 
     return (
-        <Fragment>
+        <div className={classes.Shapes}>
             <Row>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><CurvedArrow/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><PointerArrow/></Col>
@@ -41,11 +43,16 @@ const Shapes = () => {
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Heart/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Moon/></Col>
 
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Diamond/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><MagnifyingGlass/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Base/></Col>
+
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Facebook/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><StarFive/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><BadgeRibbon/></Col>
+
             </Row>
-        </Fragment>
+        </div>
     );
 };
 

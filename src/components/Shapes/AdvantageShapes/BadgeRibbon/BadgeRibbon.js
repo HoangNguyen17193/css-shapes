@@ -28,9 +28,12 @@ const BadgeRibbon = () => {
       }`;
     return (
         <Shape title='Badge Ribbon' codeString={codeString}>
-            <div className={classes.BadgeRibbon}>
+            <div className={classes.BadgeRibbonWrapper}>
+                <div className={classes.BadgeRibbon}>
+                </div>
             </div>
         </Shape>
+
     );
 };
 
