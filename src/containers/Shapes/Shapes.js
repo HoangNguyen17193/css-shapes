@@ -17,6 +17,8 @@ import StarFive from '../../components/Shapes/AdvantageShapes/StarFive/StarFive'
 import BadgeRibbon from '../../components/Shapes/AdvantageShapes/BadgeRibbon/BadgeRibbon';
 import TVScreen from '../../components/Shapes/AdvantageShapes/TVScreen/TVScreen';
 import Diamond from '../../components/Shapes/AdvantageShapes/Diamon/Diamond';
+import MagnifyingGlass from '../../components/Shapes/AdvantageShapes/MagnifyingGlass/MagnifyingGlass';
+import Base from '../../components/Shapes/AdvantageShapes/Base/Base';
 
 import classes from './Shapes.module.scss';
 
@@ -42,6 +44,8 @@ const Shapes = () => {
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Moon/></Col>
 
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Diamond/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><MagnifyingGlass/></Col>
+                <Col className={classes.Column} span={24} lg={{span: 8}}><Base/></Col>
 
                 <Col className={classes.Column} span={24} lg={{span: 8}}><Facebook/></Col>
                 <Col className={classes.Column} span={24} lg={{span: 8}}><StarFive/></Col>
