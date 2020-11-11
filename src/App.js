@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import MainLayout from "./components/Common/MainLayout/MainLayout";
-import Shapes from "./containers/Shapes/Shapes";
+import BasicShapes from "./containers/BasicShapes/BasicShapes";
 
 class App extends Component {
     render() {
         return (
             <MainLayout>
-                <Shapes />
+                <BasicShapes />
             </MainLayout>
         )
     }

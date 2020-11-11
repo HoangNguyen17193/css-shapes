@@ -23,9 +23,9 @@ import Pentagon from '../../components/Shapes/BasicShapes/Pentagon/Pentagon';
 import Hexagon from '../../components/Shapes/BasicShapes/Hexagon/Hexagon';
 import Octagon from '../../components/Shapes/BasicShapes/Octagon/Octagon';
 
-import classes from './Shapes.module.scss';
+import classes from './BasicShapes.module.scss';
 
-const Shapes = () => {
+const BasicShapes = () => {
 
     return (
         <div className={classes.Shapes}>
@@ -63,4 +63,4 @@ const Shapes = () => {
     );
 };
 
-export default Shapes;
+export default BasicShapes;
