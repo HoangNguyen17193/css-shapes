@@ -1,0 +1,8 @@
+@import "../../../../styles/variables";
+
+.Leaf {
+  width: 100px;
+  height: 100px;
+  border: 5px solid $primary-color;
+  border-radius: 0 100%;
+}
