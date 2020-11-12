@@ -14,6 +14,14 @@ class Shape extends Component {
     };
 
     render() {
+        if(!this.props.codeString) {
+            return (
+                <div className={classes.ShapeWrapper}>
+                    <h2>{this.props.title}</h2>
+                    {this.props.children}
+                </div>
+            );
+        }
         return (
             <div className={classes.ShapeWrapper} onClick={this.handleClick}>
                 <h2>{this.props.title}</h2>
