@@ -5,6 +5,7 @@ import Hamburger from '../../components/Shapes/AdvantageShapes/Hamburger/Hamburg
 import Clock from '../../components/Shapes/AdvantageShapes/Clock/Clock';
 import CoffeeCup from '../../components/Shapes/AdvantageShapes/CoffeeCup/CoffeeCup';
 import CaptainAmericaLogo from '../../components/Shapes/AdvantageShapes/CaptainAmericaLogo/CaptainAmericaLogo';
+import Monitor from "../../components/Shapes/AdvantageShapes/Monitor/Monitor";
 
 const AdvantageShapes = () => {
     return (
@@ -13,6 +14,7 @@ const AdvantageShapes = () => {
             <Col span={24} lg={{span: 12, offset: 6}}><Clock/></Col>
             <Col span={24} lg={{span: 12, offset: 6}}><CoffeeCup/></Col>
             <Col span={24} lg={{span: 12, offset: 6}}><CaptainAmericaLogo/></Col>
+            <Col span={24} lg={{span: 12, offset: 6}}><Monitor/></Col>
         </Row>
     );
 };
