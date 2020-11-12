@@ -16,7 +16,7 @@ class MainLayout extends Component {
         return (
             <Layout className={classes.MainLayout}>
                 <Header className={classes.Header}>
-                    <Menu className={classes.HeaderMenu} theme="dark" mode="horizontal" defaultSelectedKeys={[key]}>
+                    <Menu className={classes.HeaderMenu} theme="dark" mode="horizontal" selectedKeys={[key]}>
                         <Menu.Item key={ROUTES.home.key}>
                             <NavLink exact to="/">
                                 Basic Shapes
